@@ -12,7 +12,8 @@
      .header_container{
         display: flex;
         justify-content: space-between;
-        margin: 54px 50px;
+        margin: 48px 140px;
+        
     
      }
 
@@ -45,6 +46,62 @@
         height: 48px;
      }
 
+     .Location{
+        max-width: 395px;
+        margin: 0 140px;
+        padding: 10px;
+      
+     }
 
+     .check_1{
+        
+        gap: 20px;
+        font-size: 14px;
+        display: grid;
+        gap: 10px;
+       
+        
+       
+     }
+   .serach_location{
+    margin-top: 16px;
+    border-color: #F8F8F8;
+    
+   }
+   
+   .property{
+    padding-top: 46px;
+   }
 
+   .price-range{
+
+    padding-top: 39px;
+    
+   }
+   
+   .check_2{
+        
+        gap: 20px;
+        font-size: 14px;
+        display: grid;
+        gap: 10px;
+        font-size: 14px;
+       
+
+   }
+   .city-image{
+   max-width: 1220px;
+   height: 600px;
+   position: relative;
+   }
+
+ .section_1{
+    display: flex;
+ }
+ .photoBig-text{
+    font-size: 48px;
+    position: absolute;
+    top:230px;
+    
+ }
      
