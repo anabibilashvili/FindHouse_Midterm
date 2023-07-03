@@ -11,8 +11,11 @@
 
      .header_container{
         display: flex;
-        justify-content: space-between;
-        margin: 48px 140px;
+        justify-content:space-between;
+        align-items: flex-end;
+        margin: 20px 70px;
+
+        
         
     
      }
@@ -48,24 +51,30 @@
 
      .Location{
         max-width: 395px;
-        margin: 0 140px;
+        width: 100%;
         padding: 10px;
+        display: grid;
+        justify-content: center;
       
      }
 
      .check_1{
         
-        gap: 20px;
         font-size: 14px;
         display: grid;
         gap: 10px;
        
+       
         
        
      }
-   .serach_location{
+   .search_location{
     margin-top: 16px;
     border-color: #F8F8F8;
+    max-width: 331px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px #F8F8F8;
     
    }
    
@@ -91,12 +100,14 @@
    }
    .city-image{
    max-width: 1220px;
-   height: 600px;
+   width: 100%;
    position: relative;
+   margin-left: 50px;
    }
 
  .section_1{
     display: flex;
+    padding: 70px;
  }
  .photoBig-text{
     font-size: 48px;
@@ -104,4 +115,86 @@
     top:230px;
     
  }
-     
+
+ .findhouse_image{
+   display: flex;
+   justify-content: flex-end;
+
+ }
+
+ input[type=checkbox]{
+   width: 20px;
+   height: 20px;
+   background-color: #FA9E57;
+}
+
+input[type=checkbox]:checked{
+   background-color: #FA9E57;
+}
+.Namanga{
+   max-width: 395px;
+   width: 100%;
+   
+}
+.section_2{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   
+
+}
+
+.Destination{
+   font-size: 16px;
+}
+.Home_name{
+   font-size: 14px;
+   color: #000000;
+   opacity: 50%;
+   padding: 8px;
+}
+
+.Price_Home{
+   color:#29B24E;
+   font-size: 24px;
+}
+
+.Time{
+   font-size: 14px;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 50px;
+}
+
+
+
+   .Namanga > ul{
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+   }
+   .Top{
+      font-size: 12px;
+      background-color: #29B24E;
+      color: #F8F8F8;
+      border-radius: 15px;
+      max-width:65px;
+      padding: 4px;
+      
+      
+
+
+   }
+   .Home_all{
+      position: relative;
+      max-width: 363px;
+      width: 90%;
+   }
+
+ .section2_h4{
+   font-size: 18px;
+   padding: 36px;
+   margin-left: 70px;
+ }
+
+
+
