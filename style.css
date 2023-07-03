@@ -196,5 +196,39 @@ input[type=checkbox]:checked{
    margin-left: 70px;
  }
 
+footer{
+   background-color: #29B24E;
+ 
+   height: 150px;
+   border-radius: 20px;
+ 
+}
 
+footer a{
+   color: #F8F8F8;
+}
+footer ul{
+   display: flex;
+}
+
+.footer_section{
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+
+.footer_nav{
+     display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.footer_line{
+   display: flex;
+   justify-content: center;
+   
+}
+.Line_F{
+   display: flex;
+}
 
