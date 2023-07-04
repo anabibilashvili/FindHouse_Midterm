@@ -44,3 +44,112 @@
         max-width: 48px;
         height: 48px;
      }
+     .main-photo{
+        max-width:810px;
+        width: 100%;
+        
+
+    }
+    .section_1{
+        display: flex;
+    }
+   
+    .right_side{
+        max-width:786px;
+        width:100%;
+        margin-left: 44px;
+        
+        
+
+    }
+    .top_text{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        
+    }
+    .eyeFrame{
+        display: flex;
+       
+    }
+    .right_side_bigtext{
+        max-width: 611px;
+        font-size: 14px;
+        padding-top: 32px;
+    }
+
+    .Posted_time,
+    .bottom_text span,
+    .Paragrap_text span{
+        opacity: 70%;
+        font-size: 12px;
+        
+    }
+
+   
+     .Top{
+        font-size: 12px;
+        background-color: #29B24E;
+        color: #F8F8F8;
+        border-radius: 15px;
+        max-width:65px;
+        padding: 4px;
+    }
+    h2{
+        padding-top:24px;
+    }
+    .Kiambu{
+        padding-top: 12px;
+    }
+    .right_side_secondUl ul{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+        padding-top: 57px;
+        margin-left: -10px;
+        
+    }
+
+    .main_container{
+        margin: 50px;
+    }
+    .bottom_text{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .homePrice{
+        color:#29B24E;
+        font-size: 36px;
+        weight:600;
+    }
+    .sent_message{
+        border:1px solid #29B24E;
+        max-width: 154px;
+        border-radius:12px ;
+        padding: 13px;
+        color:#29B24E;
+        font-size: 14px;
+    }
+    .Call{
+        background-color: #29B24E;
+        color: #F8F8F8;
+        padding: 13px;
+        max-width: 80px;
+        border-radius: 12px;
+    
+    }
+    .rightSide-bottomPart{
+        padding-top: 49px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottom_button{
+    
+        display: grid;
+        grid-template-columns: auto auto;
+        gap:16px;
+    
+    }
+    
