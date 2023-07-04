@@ -87,6 +87,7 @@
     padding-top: 39px;
     
    }
+
    
    .check_2{
         
@@ -207,8 +208,12 @@ footer{
 footer a{
    color: #F8F8F8;
 }
-footer ul{
+.Namanga ul{
    display: flex;
+}
+
+.Namanga a{
+   color:#000000;
 }
 
 .footer_section{
@@ -231,4 +236,9 @@ footer ul{
 .Line_F{
    display: flex;
 }
+
+footer ul{
+   display: flex;
+}
+
 
