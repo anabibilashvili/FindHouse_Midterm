@@ -1,0 +1,46 @@
+*{
+    margin:0;
+     padding:0; 
+     box-sizing:border-box} 
+
+
+
+     a{
+        text-decoration: none;
+     }
+     .header_container{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+        margin: 20px 70px;
+
+        
+        
+    
+     }
+     .nav_bar{
+        display: flex;
+ 
+    }
+    .nav_bar_a{
+        color: black;
+    }
+    li{
+        padding: 21px;
+        list-style-type: none;
+     }
+
+     .sell_something{
+        color:white;
+        background-color: #29B24E;
+        border-radius: 12px;
+        padding: 13px;
+        display: flex;
+        align-items: center;
+        height: 47px;
+
+     }
+     .site-icon{
+        max-width: 48px;
+        height: 48px;
+     }
