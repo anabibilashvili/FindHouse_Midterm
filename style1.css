@@ -10,9 +10,9 @@
      }
      .header_container{
         display: flex;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items: flex-end;
-        margin: 20px 70px;
+        margin: 20px 0;
 
         
         
@@ -55,6 +55,8 @@
     }
    
     .right_side{
+        display: grid;
+        justify-content: center;
         max-width:786px;
         width:100%;
         margin-left: 44px;
@@ -152,4 +154,107 @@
         gap:16px;
     
     }
+    .section_2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .Namanga{
+        max-width: 395px;
+        width: 100%;
+    }
+    .Home_all{
+        position: relative;
+        max-width: 363px;
+        width: 90%;
+     }
+     .Destination{
+        font-size: 16px;
+     }
+     .Home_name{
+        font-size: 14px;
+        color: #000000;
+        opacity: 50%;
+        padding: 8px;
+     }
+     .Time{
+        font-size: 14px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center
+     }
+     .Price_Home{
+        color:#29B24E;
+        font-size: 24px;
+     }
+
+     .Namanga ul{
+        display: flex;
+        font-size: 14px;
+     }
+     .Top_1{
+        font-size: 12px;
+        background-color: #29B24E;
+        color: #F8F8F8;
+        border-radius: 15px;
+        max-width:65px;
+        padding: 4px;
+     }
+     .Top{
+        position: absolute;
+        font-size: 12px;
+        background-color: #29B24E;
+        color: #F8F8F8;
+        border-radius: 15px;
+        max-width:65px;
+        padding: 4px;
+     }
+     .Namanga a{
+        color:#000000;
+     }
+     .main_container{
+        display: grid;
+        gap: 40px;
+        justify-content: center;
+     }
+     footer{
+        background-color: #29B24E;
+      
+        height: 150px;
+        border-radius: 20px;
+      
+     }
     
+     
+     .footer_nav{
+        display: flex;
+       align-items: baseline;
+       justify-content: space-around;
+       border-bottom: 1px white solid;
+       
+
+   }
+   footer a{
+    color: #F8F8F8;
+ }
+ footer ul{
+    display: flex;
+ }
+
+ .footer_line{
+    max-width: 1640px;
+    width: 100%;
+    
+ }
+ footer p{
+    display: flex;
+    color:#F8F8F8;
+    justify-content: center;
+    padding: 32px;
+ }
+ .Namanga > .Top{
+    position: absolute;
+ }
+
+     
+  
