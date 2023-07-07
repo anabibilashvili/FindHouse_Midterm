@@ -1,3 +1,8 @@
+@font-face {
+   font-family: poppins;
+   src: url(/font/);
+ }
+
 *{
     margin:0;
      padding:0; 
@@ -11,9 +16,9 @@
 
      .header_container{
         display: flex;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items: flex-end;
-        margin: 20px 70px;
+        margin: 20px 0;
 
         
         
@@ -25,12 +30,18 @@
  
     }
     .nav_bar_a{
+        font-family:poppins;
         color: black;
     }
 
      li{
         padding: 21px;
         list-style-type: none;
+     }
+     .main_container{
+      display: grid;
+      justify-content: center;
+      
      }
 
      .sell_something{
@@ -55,8 +66,10 @@
         padding: 10px;
         display: grid;
         justify-content: center;
+        
       
      }
+ 
 
      .check_1{
         
@@ -69,12 +82,14 @@
        
      }
    .search_location{
+    max-width: 331px;
     margin-top: 16px;
     border-color: #F8F8F8;
     max-width: 331px;
-    width: 60%;
+    width: 70%;
     border-radius: 10px;
     border: 1px #F8F8F8;
+    padding: 10px;
     
    }
    
@@ -103,36 +118,56 @@
    max-width: 1220px;
    width: 100%;
    position: relative;
-   margin-left: 50px;
+   
    }
 
  .section_1{
     display: flex;
-    padding: 70px;
- }
- .photoBig-text{
-    font-size: 48px;
-    position: absolute;
-    top:230px;
     
  }
 
- .findhouse_image{
-   display: flex;
-   justify-content: flex-end;
+ .photo_part{
+   position: absolute;
+   display: grid;
+   align-items: center;
+   justify-items: center;
+
 
  }
 
- input[type=checkbox]{
-   width: 20px;
-   height: 20px;
-   background-color: #FA9E57;
-}
 
-input[type=checkbox]:checked{
-   background-color: #FA9E57;
-}
+ .findhouse_image{
+   position: relative;
+   display: flex;
+   justify-content: center;
+
+ }
+ h1{
+  
+   /*
+   right: 20%;
+   top: 10%; */
+   font-size: 48px;
+  
+   
+ }
+
+ .search_place_photo{
+   
+   max-width: 324px;
+   width: 35%;
+   padding: 7px;
+   border-color: #F8F8F8CC;
+   border-radius: 10px;
+   margin-top: 200px;
+   /*top: 30%;
+   right: 37%;*/
+ }
+
+
+
 .Namanga{
+   position: relative;
    max-width: 395px;
    width: 100%;
    
@@ -174,6 +209,9 @@ input[type=checkbox]:checked{
       font-size: 14px;
    }
    .Top{
+      top: 2%;
+      right: 82%;
+      position: absolute;
       font-size: 12px;
       background-color: #29B24E;
       color: #F8F8F8;
@@ -181,10 +219,17 @@ input[type=checkbox]:checked{
       max-width:65px;
       padding: 4px;
       
-      
-
-
    }
+
+   .Frame-icon{
+      position: absolute;
+      top: 52%;
+      right: 12%;
+      background-color: #F8F8F8;
+      padding: 5px;
+      border-radius: 48px;
+   }
+
    .Home_all{
       position: relative;
       max-width: 363px;
@@ -222,10 +267,20 @@ footer a{
    align-items: baseline;
 }
 
-.footer_nav{
-     display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+ footer p{
+    display: flex;
+    color:#F8F8F8;
+    justify-content: center;
+    padding: 32px;
+ }
+   
+ .footer_nav{
+   display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  border-bottom: 1px white solid;
+  
+
 }
 
 .footer_line{
@@ -239,6 +294,12 @@ footer a{
 
 footer ul{
    display: flex;
+}
+footer p{
+   display: flex;
+   color:#F8F8F8;
+   justify-content: center;
+   padding: 32px;
 }
 
 

@@ -89,6 +89,15 @@
         font-size: 12px;
         
     }
+    .Top_1{
+        font-size: 12px;
+        background-color: #29B24E;
+        color: #F8F8F8;
+        border-radius: 15px;
+        max-width:70px;
+        padding: 5px;
+
+    }
 
    
      .Top{
@@ -192,16 +201,7 @@
         display: flex;
         font-size: 14px;
      }
-     .Top_1{
-        font-size: 12px;
-        background-color: #29B24E;
-        color: #F8F8F8;
-        border-radius: 15px;
-        max-width:65px;
-        padding: 4px;
-     }
      .Top{
-        position: absolute;
         font-size: 12px;
         background-color: #29B24E;
         color: #F8F8F8;
@@ -225,15 +225,14 @@
       
      }
     
-     
      .footer_nav{
         display: flex;
        align-items: baseline;
        justify-content: space-around;
        border-bottom: 1px white solid;
        
-
-   }
+     
+     }
    footer a{
     color: #F8F8F8;
  }
@@ -251,9 +250,6 @@
     color:#F8F8F8;
     justify-content: center;
     padding: 32px;
- }
- .Namanga > .Top{
-    position: absolute;
  }
 
      
