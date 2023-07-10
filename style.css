@@ -1,12 +1,26 @@
 @font-face {
-   font-family: poppins;
-   src: url(/font/);
+   font-family: poppins400;
+   src: url(../font/Poppins-Regular.ttf);
+ }
+ 
+ @font-face {
+   font-family: poppins500;
+   src: url(../font/Poppins-Medium.ttf);
+ }
+ 
+ @font-face {
+   font-family: poppins600;
+   src: url(../font/Poppins-SemiBold.ttf);
  }
 
 *{
     margin:0;
      padding:0; 
      box-sizing:border-box} 
+     
+     body{
+      background-color: #F2F2F2;
+     }
 
 
 
@@ -23,6 +37,16 @@
         
         
     
+     }
+     h4{
+      font-family: poppins600;
+     }
+
+     .photo_text,
+     label,
+     .nav_bar li
+     {
+      font-family:poppins400;
      }
 
      .nav_bar{
@@ -61,11 +85,15 @@
      }
 
      .Location{
+        height:751px ;
+        border-radius: 24px;
+        background-color: #F8F8F8;
+        box-shadow: #C2C2C24F ;
         max-width: 395px;
         width: 100%;
-        padding: 10px;
+        padding: 30px;
         display: grid;
-        justify-content: center;
+        justify-content: space-around;
         
       
      }
@@ -122,9 +150,12 @@
    }
 
  .section_1{
-    display: flex;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 20px;
+}
     
- }
+ 
 
  .photo_part{
    position: absolute;
@@ -148,6 +179,7 @@
    right: 20%;
    top: 10%; */
    font-size: 48px;
+   font-family: poppins600;
   
    
  }
@@ -167,12 +199,18 @@
 
 
 .Namanga{
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+   background-color: #F8F8F8;
+   border-radius: 24px;
    position: relative;
    max-width: 395px;
-   width: 100%;
+   width: 90%;
    
 }
 .section_2{
+   
    display: grid;
    grid-template-columns: auto auto auto auto;
    
@@ -181,8 +219,11 @@
 
 .Destination{
    font-size: 16px;
+   font-family: poppins600;
+   margin-left: 10px;
 }
 .Home_name{
+   font-family: poppins400;
    font-size: 14px;
    color: #000000;
    opacity: 50%;
@@ -210,7 +251,7 @@
    }
    .Top{
       top: 2%;
-      right: 82%;
+      right: 76%;
       position: absolute;
       font-size: 12px;
       background-color: #29B24E;
@@ -223,17 +264,18 @@
 
    .Frame-icon{
       position: absolute;
-      top: 52%;
-      right: 12%;
+      top: 48%;
+      right: 5%;
       background-color: #F8F8F8;
       padding: 5px;
       border-radius: 48px;
    }
 
    .Home_all{
+      padding: 5px;
       position: relative;
       max-width: 363px;
-      width: 90%;
+      width: 100%;
    }
 
  .section2_h4{
@@ -254,6 +296,8 @@ footer a{
    color: #F8F8F8;
 }
 .Namanga ul{
+   font-size: 12px;
+   font-family: poppins400;
    display: flex;
 }
 

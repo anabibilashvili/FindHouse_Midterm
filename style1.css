@@ -1,7 +1,24 @@
+@font-face {
+    font-family: poppins400;
+    src: url(../font/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: poppins500;
+    src: url(../font/Poppins-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: poppins600;
+    src: url(../font/Poppins-SemiBold.ttf);
+  }
+ 
+
 *{
     margin:0;
      padding:0; 
      box-sizing:border-box} 
+     
 
 
 
@@ -18,7 +35,14 @@
         
     
      }
-     .nav_bar{
+     .nav_bar,
+     .nav_bar li,
+     .sell_something p,
+     .Paragrap_text p,
+     .right_side_secondUl li,
+     .bottom_text p
+    {
+        font-family:poppins400;
         display: flex;
  
     }
@@ -87,8 +111,17 @@
     .Paragrap_text span{
         opacity: 70%;
         font-size: 12px;
+        font-family: poppins400;
         
     }
+    .Frame-icon{
+        position: absolute;
+        top: 52%;
+        right: 12%;
+        background-color: #F8F8F8;
+        padding: 5px;
+        border-radius: 48px;
+     }
     .Top_1{
         font-size: 12px;
         background-color: #29B24E;
@@ -100,15 +133,20 @@
     }
 
    
-     .Top{
+    .Top{
+        top: 2%;
+        right: 82%;
+        position: absolute;
         font-size: 12px;
         background-color: #29B24E;
         color: #F8F8F8;
         border-radius: 15px;
         max-width:65px;
         padding: 4px;
-    }
+        
+     }
     h2{
+        font-family: poppins600;
         padding-top:24px;
     }
     .Kiambu{
@@ -142,6 +180,7 @@
         padding: 13px;
         color:#29B24E;
         font-size: 14px;
+        font-family: poppins400;
     }
     .Call{
         background-color: #29B24E;
@@ -149,6 +188,7 @@
         padding: 13px;
         max-width: 80px;
         border-radius: 12px;
+        font-family: poppins400;
     
     }
     .rightSide-bottomPart{
@@ -168,9 +208,11 @@
         grid-template-columns: auto auto auto auto;
     }
     .Namanga{
+        position: relative;
         max-width: 395px;
         width: 100%;
-    }
+        
+     }
     .Home_all{
         position: relative;
         max-width: 363px;
@@ -178,8 +220,10 @@
      }
      .Destination{
         font-size: 16px;
+        font-family: poppins600;
      }
      .Home_name{
+        font-family: poppins400;
         font-size: 14px;
         color: #000000;
         opacity: 50%;
@@ -200,6 +244,7 @@
      .Namanga ul{
         display: flex;
         font-size: 14px;
+        font-family: poppins400;
      }
      .Top{
         font-size: 12px;
@@ -208,6 +253,7 @@
         border-radius: 15px;
         max-width:65px;
         padding: 4px;
+        font-family: poppins400;
      }
      .Namanga a{
         color:#000000;
