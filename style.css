@@ -284,10 +284,8 @@
    margin-left: 70px;
  }
 
-footer{
+.footer_section1{
    background-color: #29B24E;
- 
-   height: 150px;
    border-radius: 20px;
  
 }
@@ -336,14 +334,111 @@ footer a{
    display: flex;
 }
 
-footer ul{
-   display: flex;
-}
+
 footer p{
    display: flex;
    color:#F8F8F8;
    justify-content: center;
    padding: 32px;
 }
+.search-icon{
+   display: none;
+}
+.footer_section2{
+   padding: 72px;
+   display: flex;
+   display: none;
+   
+}
+.footer_icons{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+.plus_icon{
+   background-color: #29B24E;
+   border-radius: 12px;
+   padding: 10px;
+}
+.footer_icons>li> h6{
+   display: flex;
+   justify-content: space-around;
+   font-family: Poppins400;
+}       
+      .SupportEmail,
+      .footerUL_1,
+      .footerUL_2 li{
+         font-family: Poppins400;
+
+      }
+      h1>span{
+         display: flex;
+         justify-content: center
+      }
 
 
+
+    @media (max-width: 1024px) {
+      .nav_bar,
+      .sell_something,
+      .search_place_photo,
+      .SupportEmail{
+         display: none;
+      }
+   .search-icon
+      {
+         display: block;
+      }
+      .header_container{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 30px;
+      }
+      .city-image{
+         max-width: 335px;
+         border-radius: 24px;
+         height: 435px;
+         
+         
+      }
+      .section_2,
+      .section_1{
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: center
+
+      }
+      h1{
+         max-width: 241px;
+         font-size: 24px;
+      }
+      .section2_h4{
+
+      }
+      .photo_text{
+         max-width: 294px;
+         font-size: 14px;
+      }
+      .findhouse_image{
+         display:flex;
+      }
+      .footerUL_1,
+      .footerUL_2{
+         display: grid;
+         
+      }
+      .footer_section2{
+         display: block;
+      }
+      .main_container{
+         display: grid;
+      }
+      .footer{
+         display: grid;
+      }
+
+     
+
+   
+    }
