@@ -84,7 +84,7 @@
         height: 48px;
      }
 
-     .Location{
+     .Location  {
         height:751px ;
         border-radius: 24px;
         background-color: #F8F8F8;
@@ -97,6 +97,12 @@
         
       
      }
+     .check_1 span,
+     .check_2 span{
+      opacity: 50%;
+     }
+
+     
  
 
      .check_1{
@@ -112,14 +118,15 @@
    .search_location{
     max-width: 331px;
     margin-top: 16px;
-    border-color: #F8F8F8;
+    border: #0D9CA436 solid 1px;
     max-width: 331px;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
-    border: 1px #F8F8F8;
     padding: 10px;
-    
    }
+
+
+   
    
    .property{
     padding-top: 46px;
@@ -347,13 +354,17 @@ footer p{
 .footer_section2{
    padding: 72px;
    display: flex;
-   display: none;
+   justify-content: space-around;
+   /*display: none;*/
    
 }
 .footer_icons{
    display: flex;
    justify-content: center;
    align-items: flex-end;
+}
+ #icon_name{
+list-style-type: none;
 }
 .plus_icon{
    background-color: #29B24E;
