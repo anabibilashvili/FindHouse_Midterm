@@ -1,15 +1,15 @@
 @font-face {
-   font-family: poppins400;
+   font-family:"poppins400";
    src: url(../font/Poppins-Regular.ttf);
  }
  
  @font-face {
-   font-family: poppins500;
+   font-family: "poppins500";
    src: url(../font/Poppins-Medium.ttf);
  }
  
  @font-face {
-   font-family: poppins600;
+   font-family: "poppins600";
    src: url(../font/Poppins-SemiBold.ttf);
  }
 
