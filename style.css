@@ -1,16 +1,16 @@
 @font-face {
    font-family:"poppins400";
-   src: url(../font/Poppins-Regular.ttf);
+   src: url(font/Poppins-Regular.ttf);
  }
  
  @font-face {
    font-family: "poppins500";
-   src: url(../font/Poppins-Medium.ttf);
+   src: url(font/Poppins-Medium.ttf);
  }
  
  @font-face {
    font-family: "poppins600";
-   src: url(../font/Poppins-SemiBold.ttf);
+   src: url(font/Poppins-SemiBold.ttf);
  }
 
 *{
@@ -410,7 +410,7 @@ footer p{
       .section_1{
    display: flex;
    flex-wrap: wrap-reverse;
-   justify-content: center
+   justify-content: center;
 
       }
       h1{
