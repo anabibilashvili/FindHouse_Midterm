@@ -364,7 +364,11 @@ footer p{
    display: flex;
    justify-content: space-around;
    font-family: Poppins400;
-}       
+} 
+.footerUL_1,
+.footerUL_2{
+   display: flex;
+}      
       .SupportEmail,
       .footerUL_1,
       .footerUL_2 li{
