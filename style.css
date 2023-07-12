@@ -43,18 +43,19 @@
      }
 
      .photo_text,
-     label,
-     .nav_bar li
+     label
+     
      {
-      font-family:poppins400;
+      font-family:'poppins400';
      }
 
      .nav_bar{
         display: flex;
+        
  
     }
     .nav_bar_a{
-        font-family:poppins;
+        font-family:'poppins500';
         color: black;
     }
 
@@ -106,7 +107,7 @@
  
 
      .check_1{
-        
+        accent-color:#29B24E;
         font-size: 14px;
         display: grid;
         gap: 10px;
@@ -257,7 +258,7 @@
       font-size: 14px;
    }
    .Top{
-      top: 2%;
+      top: 4%;
       right: 76%;
       position: absolute;
       font-size: 12px;
@@ -271,8 +272,8 @@
 
    .Frame-icon{
       position: absolute;
-      top: 48%;
-      right: 5%;
+      top: 50%;
+      right: 2%;
       background-color: #F8F8F8;
       padding: 5px;
       border-radius: 48px;
@@ -304,6 +305,7 @@ footer a{
    font-size: 12px;
    font-family: poppins400;
    display: flex;
+   justify-content: space-between;
 }
 
 .Namanga a{
@@ -355,7 +357,7 @@ footer p{
    padding: 72px;
    display: flex;
    justify-content: space-around;
-   /*display: none;*/
+   display: none;
    
 }
 .footer_icons{
@@ -393,14 +395,15 @@ list-style-type: none;
 
 
 
-    @media (max-width: 1024px) {
+    @media (max-width: 768px) {
       .nav_bar,
       .sell_something,
       .search_place_photo,
       .SupportEmail{
          display: none;
       }
-   .search-icon
+   .search-icon,
+   .footer_section2
       {
          display: block;
       }
@@ -428,9 +431,6 @@ list-style-type: none;
          max-width: 241px;
          font-size: 24px;
       }
-      .section2_h4{
-
-      }
       .photo_text{
          max-width: 294px;
          font-size: 14px;
@@ -442,9 +442,6 @@ list-style-type: none;
       .footerUL_2{
          display: grid;
          
-      }
-      .footer_section2{
-         display: block;
       }
       .main_container{
          display: grid;

@@ -1,16 +1,16 @@
 @font-face {
-    font-family: poppins400;
-    src: url(../font/Poppins-Regular.ttf);
+    font-family: "poppins400";
+    src: url(font/Poppins-Regular.ttf);
   }
   
   @font-face {
-    font-family: poppins500;
-    src: url(../font/Poppins-Medium.ttf);
+    font-family: "poppins500";
+    src: url(font/Poppins-Medium.ttf);
   }
   
   @font-face {
-    font-family: poppins600;
-    src: url(../font/Poppins-SemiBold.ttf);
+    font-family: "poppins600";
+    src: url(font/Poppins-SemiBold.ttf);
   }
  
 
@@ -44,16 +44,20 @@ body{
      .right_side_secondUl li,
      .bottom_text p
     {
-        font-family:'poppins400';
+        font-family:'poppins500';
         display: flex;
+        gap:20px;
  
     }
+   
+    
     .right_side_secondUl li{
         display:flex;
         flex-direction: row;
     }
     .nav_bar_a{
         color: black;
+        gap:30px;
     }
     li{
         
@@ -66,6 +70,7 @@ body{
      }
 
      .sell_something{
+        font-family: 'poppins400';
         color:white;
         background-color: #29B24E;
         border-radius: 12px;
@@ -90,7 +95,8 @@ body{
     }
    
     .right_side{
-        display: grid;
+        
+        flex-direction: column;
         justify-content: center;
         max-width:786px;
         width:100%;
@@ -103,11 +109,11 @@ body{
     }
     
     .top_text{
+        font-family:'poppins400';
+        display: grid;
+        grid-template-columns: auto auto auto;
         padding-top: 30px;
-        display: flex;
-        justify-content: space-between;
         align-items: flex-start;
-        
         
     }
     .eyeFrame{
@@ -132,12 +138,13 @@ body{
     .Frame-icon{
         position: absolute;
         right: 3%;
-        bottom: 45%;
+        bottom: 41%;
         background-color: #F8F8F8;
         padding: 5px;
         border-radius: 48px;
      }
     .Top_1{
+        
         font-size: 12px;
         background-color: #29B24E;
         color: #F8F8F8;
@@ -171,20 +178,35 @@ body{
         padding-top: 12px;
     }
     .right_side_secondUl ul{
+
+        gap: 20px;
         display: flex;
         padding-top: 20px;
+        align-items: flex-end;
+        font-size: 14px;
+        
        
         
     }
-
-    .main_container{
-        margin: 50px;
+    h4{
+        font-family: 'poppins600';
+        font-size: 22px;
+        margin-left: 50px;
     }
+
     .bottom_text{
+        padding-top: 40px;
         display: grid;
         grid-template-columns: auto auto auto;
     }
+    .bottomText-firstcolum,
+    .bottomText-thirdcolum{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     .homePrice{
+        font-family: 'poppins600';
         color:#29B24E;
         font-size: 36px;
         weight:600;
@@ -208,15 +230,17 @@ body{
     
     }
     .rightSide-bottomPart{
-        padding-top: 49px;
+        padding-top: 40px;
         display: flex;
-        justify-content: space-between;
+        justify-content:space-around;
+        margin-right: 30px;
     }
     .bottom_button{
     
         display: grid;
         grid-template-columns: auto auto;
         gap:16px;
+        align-items: end;
     
     }
     .section_2{
@@ -268,6 +292,7 @@ body{
         display: flex;
         font-size: 12px;
         font-family: 'poppins400';
+        justify-content: space-between;
         
      }
     
@@ -281,19 +306,22 @@ body{
      }
      footer{
         background-color: #29B24E;
-      
-        height: 150px;
         border-radius: 20px;
       
+
      }
     
      .footer_nav{
         display: flex;
        align-items: baseline;
        justify-content: space-around;
-       border-bottom: 1px white solid;
+       border-bottom: 1px solid white;
+       
        
      
+     }
+     .footer_section2{
+        display: none;
      }
    footer a{
     color: #F8F8F8;
@@ -312,19 +340,17 @@ body{
     
  }
  footer p{
+    font-family: 'poppins400';
     display: flex;
     color:#F8F8F8;
     justify-content: center;
     padding: 32px;
  }
- @media (max-width: 1024px) {
+ @media (max-width: 768px) {
    .header_container,
-    .mail{
+    .mail,
+    .SupportEmail{
     display: none;
-   }
-   .main-photo{
-    max-width: 335px;
-    width: 100%;
    }
    .section_1,
    .section_2{
@@ -336,6 +362,7 @@ body{
     flex-direction: column;
    }
    .bottom_button{
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
 
@@ -345,21 +372,24 @@ body{
     margin: auto;
     display: flex;
     max-width: 334px;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     
    }
    .bottom_text{
     display:flex;
     flex-direction: column;
+    margin-left: 20px;
    }
    .top_text{
     display: flex;
     justify-content: space-around;
+    align-items: center
    }
-   footer ul{
-    display: flex;
+   footer ul
+  {
     flex-direction: column;
+    gap: 10px;
    }
    .right_side{
     margin: auto;
@@ -368,11 +398,30 @@ body{
     font-size: 18px;
 
    }
-   .right_side_bigtext{
+   .right_side_bigtext,
+   .homePrice{
     font-size: 12px;
    }
-   .right_side_secondUl{
-    font-size: 14px;
+
+   .homePrice{
+    font-size: 24px;
+   }
+   .image-part{
+    max-width: 90%;
+    margin: auto;
+   }
+   .Paragrap_text,
+   .right_side_secondUl ul{
+    margin-left: 20px;
+   }
+   .rightSide-bottomPart span{
+     margin-left: 20px;
+
+   }
+  
+
     
    }
- }
+  
+
+ 
