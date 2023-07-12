@@ -40,7 +40,7 @@ body{
      .nav_bar,
      .nav_bar li,
      .sell_something p,
-     .Paragrap_text p,
+     
      .right_side_secondUl li,
      .bottom_text p
     {
@@ -96,11 +96,10 @@ body{
    
     .right_side{
         
-        flex-direction: column;
+        display: grid;
         justify-content: center;
         max-width:786px;
-        width:100%;
-        margin-left: 44px;
+        width: 100%;
         background-color: #F8F8F8;
         border-radius: 24px;
         
@@ -114,6 +113,7 @@ body{
         grid-template-columns: auto auto auto;
         padding-top: 30px;
         align-items: flex-start;
+        justify-content: space-around;
         
     }
     .eyeFrame{
@@ -122,8 +122,9 @@ body{
     }
     .right_side_bigtext{
         max-width: 611px;
-        font-size: 14px;
+        width: 90%;
         padding-top: 32px;
+        font-family: 'poppins400';
         
     }
 
@@ -166,10 +167,15 @@ body{
         max-width: 65px;
         padding: 4px;
 }
+.Paragrap_text{
+    display: flex;
+    flex-direction: column;
+}
         
      
     h2{
-        max-width:618px;
+        
+        margin: auto;
         font-family: 'poppins600';
         padding-top:24px;
         font-size: 22px;
@@ -179,7 +185,7 @@ body{
     }
     .right_side_secondUl ul{
 
-        gap: 20px;
+        gap: 10px;
         display: flex;
         padding-top: 20px;
         align-items: flex-end;
@@ -198,6 +204,7 @@ body{
         padding-top: 40px;
         display: grid;
         grid-template-columns: auto auto auto;
+        
     }
     .bottomText-firstcolum,
     .bottomText-thirdcolum{
@@ -300,13 +307,15 @@ body{
         color:#000000;
      }
      .main_container{
-        display: grid;
+        display:flex;
+        flex-direction: column;
         gap: 40px;
         justify-content: center;
      }
-     footer{
+     .footer_section1{
         background-color: #29B24E;
         border-radius: 20px;
+       
       
 
      }
@@ -346,7 +355,7 @@ body{
     justify-content: center;
     padding: 32px;
  }
- @media (max-width: 768px) {
+ @media (max-width: 1024px) {
    .header_container,
     .mail,
     .SupportEmail{

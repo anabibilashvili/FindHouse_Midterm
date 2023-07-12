@@ -395,7 +395,7 @@ list-style-type: none;
 
 
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       .nav_bar,
       .sell_something,
       .search_place_photo,
